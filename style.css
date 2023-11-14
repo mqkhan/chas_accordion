@@ -1,0 +1,28 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+.description {
+  display: none;
+}
+
+.description {
+  width: 100%;
+  padding: 2px;
+  background-color: #d7c5c5;
+  border: 2px solid black;
+  color: rgb(15, 14, 14);
+  font-size: 12px;
+}
+.active {
+  cursor: pointer;
+  width: 100%;
+  padding: 2px;
+  background-color: #933c3c;
+  border: 2px solid black;
+  color: rgb(250, 244, 244);
+  font-size: 12px;
+}
+.active + .description {
+  display: block;
+}
